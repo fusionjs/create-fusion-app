@@ -11,8 +11,7 @@
     "fusion-react-async": "^1.2.2",
     "fusion-tokens": "^1.0.3",
     "react": "^16.4.0",
-    "react-dom": "^16.4.0",
-    "styletron": "^3.0.4"
+    "react-dom": "^16.4.0"
   },
   "scripts": {
     "dev": "fusion dev",
