@@ -8,6 +8,6 @@
   },
   "dependencies": {
     "chalk": "^2.4.1",
-    "fusion-scaffolder": "https://github.com/kevingrandon/fusion-scaffolder"
+    "fusion-scaffolder": "^0.0.1"
   }
 }
