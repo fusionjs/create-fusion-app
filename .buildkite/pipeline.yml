@@ -7,7 +7,7 @@ steps:
     agents:
       queue: builders
   - wait
-  - command: yarn flow
+  - command: yarn flow check
     name: ':flowtype:'
     plugins:
       'docker-compose#v1.7.0':
