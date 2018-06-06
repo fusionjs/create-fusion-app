@@ -7,7 +7,7 @@
 ./tests/
 
 [libs]
-./templates/plugin/content/flow-typed/globals.js
+./templates/basic/content/flow-typed/globals.js
 
 [lints]
 
