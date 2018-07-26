@@ -3,10 +3,11 @@ import React from 'react';
 
 import {styled} from 'fusion-plugin-styletron-react';
 
-const Center = styled('div', {fontFamily: 'Helvetica, Arial', display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center', height: '100%' })
-const FusionStyle = styled('div', {fontSize: '50px', paddingBottom: '40px'})
-const GettingStartedLink = styled('a', {textDecoration: 'none', color: 'black'});
-const FullHeightDiv = styled('div', { height: '100%'});
+const Center = styled('div', {fontFamily: 'HelveticaNeue-Light, Arial', display: 'flex', alignItems: 'center', height: '100%' })
+const FusionStyle = styled('div', {fontSize: '80px', paddingLeft: '500px'})
+const GettingStartedLink = styled('a', {textDecoration: 'none', color: 'blue', fonSize: '25px', marginLeft: '15px', marginTop: '30px'});
+const FullHeightDiv = styled('div', { height: '100%', backgroundColor: '#FFFFFF'});
+const Circle = styled('div', {height: '150px', width: '150px', backgroundColor: '#bbb', borderRadius: '50%'});
 
 const Home = () => (
     <FullHeightDiv>
@@ -20,10 +21,14 @@ const Home = () => (
         `}
         </style>
         <Center>
-            <FusionStyle>
+           
+        <FusionStyle>
             Fusion.js
-            </FusionStyle>
+        </FusionStyle>
+       
+       <Circle>
         <GettingStartedLink href="https://fusionjs.com/docs/getting-started">Let's Get Started</GettingStartedLink>
+        </Circle>
         </Center>
     </FullHeightDiv>
 );
