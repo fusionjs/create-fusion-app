@@ -32,7 +32,7 @@ const Circle = styled('div', {
   justifyContent: 'center',
   alignItems: 'center',
 });
-// const InnerCircle = styled('div', {height: '150px', width: '150px', backgroundColor: 'white', ':hover': {backgroundColor: '#f0f8fa'}, border: '2px solid #4db5d9', borderRadius: '50%', display: 'flex', justifyContent: 'center', alignItems: 'center'});
+
 const GettingStartedLink = styled('a', {
   textDecoration: 'none',
   color: '#4db5d9',
