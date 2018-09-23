@@ -10,6 +10,7 @@
     "chalk": "^2.4.1",
     "fusion-scaffolder": "^0.0.2"
   },
+  "main": "index.js",
   "devDependencies": {
     "babel-eslint": "^8.2.6",
     "babel-jest": "^23.4.2",
