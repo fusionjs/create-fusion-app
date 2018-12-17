@@ -23,7 +23,9 @@ test('scaffolded app tests pass', async () => {
   // Spin up server and validate SSR response
   const {port, proc} = await startServer();
 
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({
+    args: ['--no-sandbox', '--disable-setuid-sandbox'],
+  });
   const page = await browser.newPage();
   await page.goto(`https://localhost:${port}`);
   const response = await page.content();
