@@ -4,7 +4,7 @@
 const {promisify} = require('util');
 const exec = promisify(require('child_process').exec);
 const {startServer} = require('../test-utils/test-utils.js');
-const puppeteer = require("puppeteer");
+const puppeteer = require('puppeteer');
 
 function log(execOutput) {
   // eslint-disable-next-line no-console
