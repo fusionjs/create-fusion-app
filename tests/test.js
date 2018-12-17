@@ -27,7 +27,7 @@ test('scaffolded app tests pass', async () => {
     args: ['--no-sandbox', '--disable-setuid-sandbox'],
   });
   const page = await browser.newPage();
-  await page.goto(`https://localhost:${port}`);
+  await page.goto(`http://localhost:${port}`);
   const response = await page.content();
   await browser.close();
   expect(response).toContain('Fusion.js');
